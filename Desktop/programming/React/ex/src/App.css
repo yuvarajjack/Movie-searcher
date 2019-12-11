@@ -1,22 +1,131 @@
+.col{
+  font-family: 'Abel', sans-serif;
+  margin: auto;
+  height: px;
+  display: grid;
+}
+.body{
+  background-color:#e5dfdf;
+  
+}
+
+.date{
+  color:#91989ee0;
+  padding-left: 300px;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+
+}
+
+.header{
+  width: auto;
+  display: block;
+  color: #b2e4d5;
+  background-color: #3c6f9c;
+  font-size: 30px;
+  height: 50px;
+  display: grid;
+}
+.search{
+  width: 99%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  font-size: large;
+  font-family: 'Lato', sans-serif;
+  border-radius: 20px;
+  text-align: center;
+}
+.submit{
+  cursor: pointer;
+  border: none;
+  color: black;
+  background-color:#29a19c;
+  text-decoration: none;
+  padding: 7px 25px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 6px;
+ 
+
+}
+.back{
+  cursor: pointer;
+  border: none;
+  color: black;
+  background-color:#29a19c;
+  text-decoration: none;
+  padding: 7px 25px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 6px;
+  margin: 10px 0;
+ 
+}
+
+.movie{
+  text-align: center;
+  margin: auto;
+  font-family:'Abel', sans-serif;
+}
 .navbar{
-  font-size: 40px;
-  color: #dff6f0;
-  background-color: #29a19c;
+  color: #b2e4d5;
+  background-color: #3c6f9c;
   width: auto;
   padding-top: 50px;
   height: 100px;
-  font-family: monospace;
+  font-family: 'Abel', sans-serif;
   margin: auto;
 }
-
+.title{
+  font-size: 50px;
+  margin: auto;
+  text-align: center;  
+}
 
 .App {
   text-align: center;
 }
+/*
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#CHANGE LATER
+
+.overview{
+  font-size: 20px;
+  color: #282c34;
+  text-align: justify;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+*/
+.poster{
+  margin: auto;
+  height: auto;
+  position: relative;
+  
+}
+.view{
+  cursor: pointer;
+  border: none;
+  color: black;
+  background-color:#29a19c;
+  text-decoration: none;
+  padding: 7px 25px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 6px;
+
+}
+.footer{
+  background-color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
