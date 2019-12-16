@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Card, CardHeader, CardBody, CardFooter } from 'react-simple-card';
 import {Link} from 'react-router-dom';
-import Moment from 'react-moment'
+import Moment from 'react-moment';
 
-/*
+
+/* 
 const {id} = props
 const {movie} = props;
 const {overview} = props;

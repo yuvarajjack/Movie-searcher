@@ -14,7 +14,7 @@ class Movies extends Component {
                     }else {
                         return (
                             <React.Fragment>
-                                <h1 className="App">Movie Results</h1>
+                                
                                 <div className="row">
                                     { movie_list.map(item => (
                                          <Movie key={item.id} movie={item.title} overview={item.overview} poster={item.poster_path} date={item.release_date} id={item.id}/> 

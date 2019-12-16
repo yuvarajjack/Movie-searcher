@@ -1,0 +1,7 @@
+                                        <h3 className="details">Profit : {details.revenue}</h3>
+                                        <h3 className="details"> Language : {details.original_language}</h3> 
+                                        <h3 className="details">Budget: {details.budget}</h3>
+                                        <h3 className="details">Runtime: {details.runtime}</h3>
+                                        <h3 className="details">Status: {details.status}</h3>
+                                        <strong>Movie Generes:</strong>
+                                        <h4>{details.genres[0].name}, {details.genres[1].name},{details.genres[2].name}</h4>

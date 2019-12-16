@@ -50,25 +50,37 @@ class Details extends Component{
                                  <div>
                                  <img className="poster" src={"https://image.tmdb.org/t/p/w300/"+ details.poster_path }alt="Loading"></img>
                                  <h5 className="overview">{details.overview}</h5>
-                                 <h3><Moment format="DD/MM/YYYY">{details.release_date}</Moment></h3>
+                                 <h3 className="date"><Moment format="DD/MM/YYYY">{details.release_date}</Moment></h3>
                                  </div>
                              </CardBody>
-                             <CardFooter>
-                                    <div>
-                                        <h3>Profit : {details.revenue}</h3>
-                                        <h3>Language : {details.original_language}</h3> 
-                                        <h3>Budget: {details.budget}</h3>
-                                        <h3>Runtime: {details.runtime}</h3>
-                                        <h3>Status: {details.status}</h3>
-                                        <strong>Movie Generes:</strong>
-                                        <h4>{details.genres[0].name}, {details.genres[1].name},{details.genres[2].name}</h4>
-                                        
-                                    </div>
-                                    <div>                                
-
-                                    </div>
+                             <CardFooter className="body">
+                                 <table style={{width:"99%"}}>
+                                        <tr className="head">
+                                            <th>Profit</th>
+                                            <th>Language</th>
+                                            <th>Budget</th>
+                                            <th>Runtime</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        <tr className="details">
+                                            <td> {details.revenue}</td>
+                                            <td>{details.original_language}</td>
+                                            <td>{details.budget}</td>
+                                            <td>{details.runtime}</td>
+                                            <td>{details.status}</td>
+                                        </tr>
+                                 </table>
                                     
                              </CardFooter>
+
+                                         <table style={{width:"20%"}}>
+                                             <tr className="genres">
+                                                 <th><h4 className="genre">{details.genres[0].name}</h4></th>
+                                                 <th><h4 className="genre">{details.genres[1].name}</h4></th>
+                                                 <th><h4 className="genre">{details.genres[2].name}</h4></th>
+                                             </tr>
+                                         </table>
+                                        
                         </Card>
                     </div>
                 </React.Fragment>

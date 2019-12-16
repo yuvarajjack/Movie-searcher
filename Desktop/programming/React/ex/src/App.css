@@ -4,12 +4,26 @@
   height: px;
   display: grid;
 }
+
+
+
 .body{
   background-color:#e5dfdf;
   
 }
 
+.genres{
+  background-color:#e5dfdf;
+}
+.genre{
+  display: block;
+  color: #3c6f9c;
+  font-size: 20px;
+  text-align: center;
+  word-wrap: inherit;
+}
 .date{
+  overflow: auto;
   color:#91989ee0;
   padding-left: 300px;
   font-size: 30px;
@@ -88,6 +102,20 @@
   text-align: center;  
 }
 
+.details{
+  text-align: center;
+  font-size: large;
+  color: gray;
+  font-family: 'Lato', sans-serif;
+
+}
+.head{
+  color: #3c6f9c;
+  font-size: x-large;
+  font-family: 'Lato', sans-serif;
+
+}
+
 .App {
   text-align: center;
 }
@@ -106,6 +134,10 @@
   transform: translate(-50%, -50%);
 }
 */
+.overview{
+  font-size: 25px;
+  color: #282c34;
+}
 .poster{
   margin: auto;
   height: auto;
